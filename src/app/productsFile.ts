@@ -1,4 +1,4 @@
-export const productsFromBowser = [
+export const productsFromFile = [
   {
     avalibility_QUALITY: 100,
     expiry_DATE: '2022-09-08',
