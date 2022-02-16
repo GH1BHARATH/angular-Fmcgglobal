@@ -7,6 +7,8 @@ import { productsFromFile } from '../productsFile';
 })
 export class ProductListComponent implements OnInit {
 
+
+  //
   products = productsFromFile;
   constructor() { }
 
