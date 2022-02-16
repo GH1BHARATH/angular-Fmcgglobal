@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { topBarComponent } from './top-bar/top-bar.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,
