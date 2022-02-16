@@ -22,7 +22,7 @@ export const productsFromFile = [
     price: 500,
     product_id: 'P0002',
     product_Name: 'Clinic Plus',
-    description: 'The shampoo of the future.',
+    description: 'The shampoo of the future',
   },
   {
     avalibility_QUALITY: 100,
