@@ -10,7 +10,8 @@ export class ProductListComponent {
   share() {
     window.alert('The product has been shared!');
   }
-  buy() {
-    window.alert('The product has been added to cart.!');
+  
+  onNotify(){
+    alert('You will be notified when the product goes on sale');
   }
 }

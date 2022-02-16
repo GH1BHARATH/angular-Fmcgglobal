@@ -9,7 +9,7 @@
     </a>
 
     <h4>
-      <p *ngIf="product.product_id">product Id: {{ product.product_id }}</p>
+      <p *ngIf="product.product_id"> Description: {{ product.description }}</p>
     </h4>
 
     <!-- event binding -->
@@ -17,9 +17,9 @@
     &nbsp;
 
 <div>
-<app-product-alert></app-product-alert>
+<app-product-alert [productFile]="product" (notify)="onNotify()"></app-product-alert>
 </div>
 
-    <!-- <button type="button" (click)="buy()">Buy</button> -->
+   
   </h3>
 </Div>
