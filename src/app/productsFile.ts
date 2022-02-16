@@ -12,7 +12,7 @@ export const productsFromFile = [
     expiry_DATE: '2022-09-08',
     price: 50,
     product_id: 'P0001',
-    product_Name: 'Britannia.',
+    product_Name: 'Britannia',
   },
   {
     avalibility_QUALITY: 100,
