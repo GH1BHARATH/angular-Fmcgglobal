@@ -1,7 +1,7 @@
 <p *ngIf="productFile && productFile.price > 700" >
-<button type="button" (click)="notify.emit()">Notify Me</button>
+<button style="background-color:rgb(14, 168, 239);" type="button" (click)="notify.emit()">Notify Me</button>
 </p>
 
 <p *ngIf="productFile && productFile.price < 700" >
-<button type="button" (click)="buy()">Buy</button>
+<button style="background-color:rgb(255, 165, 0);" type="button" (click)="buy()">Buy</button>
 </p>
