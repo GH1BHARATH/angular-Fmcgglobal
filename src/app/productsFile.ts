@@ -1,3 +1,11 @@
+export interface Product {
+  avalibility_QUALITY: number;
+  expiry_DATE: String;
+  price: number;
+  product_id: String;
+  product_Name: String;
+}
+
 export const productsFromFile = [
   {
     avalibility_QUALITY: 100,

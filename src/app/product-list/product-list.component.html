@@ -1,17 +1,10 @@
 <h2>Products</h2>
-<table>
-  <tr>
-    <th>product_id</th>
-    <th>product_Name</th>
-    <th>price</th>
-    <th>avalibility_QUALITY</th>
-    <th>expiry_DATE</th>
-  </tr>
-  <tr *ngFor="let product of products">
-    <td>{{ product.product_id }}</td>
-    <td>{{ product.product_Name }}</td>
-    <td>{{ product.price }}</td>
-    <td>{{ product.avalibility_QUALITY }}</td>
-    <td>{{ product.expiry_DATE }}</td>
-  </tr>
-</table>
+
+<Div *ngFor="let product of products">
+  <h3>
+    <!-- property binding -->
+    <a [title="product.name +' Details'" ]></a>
+    <!-- string interpolation (data binding) -->
+    {{ product.product_Name }}
+  </h3>
+</Div>
