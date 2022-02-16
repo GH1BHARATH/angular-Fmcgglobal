@@ -3,16 +3,18 @@
 <Div *ngFor="let product of products">
   <h3>
     <!-- property binding -->
-    <a [title]="product.product_Name +' Details'" >
+    <a [title]="product.product_Name + ' Details'">
       <!-- string interpolation (data binding) -->
       {{ product.product_Name }}
     </a>
 
-    <p *ngIf="product.product_id">product Id: {{ product.product_id }}</p>
+    <h4>
+      <p *ngIf="product.product_id">product Id: {{ product.product_id }}</p>
+    </h4>
 
-   <!-- event binding -->
-  <button type="button" (click)="share()">Share</button>
-  &nbsp;
-  <button type="button" (click)="buy()">Buy</button>
+    <!-- event binding -->
+    <button type="button" (click)="share()">Share</button>
+    &nbsp;
+    <button type="button" (click)="buy()">Buy</button>
   </h3>
 </Div>
