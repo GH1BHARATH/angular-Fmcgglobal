@@ -1,13 +1,14 @@
 <h2>Products</h2>
 
-<Div *ngFor="let product of products">
+<Div id="myDiv"  *ngFor="let product of products">
+  <hr>
   <h3>
     <!-- property binding -->
     <a [title]="product.product_Name + ' Details'">
       <!-- string interpolation (data binding) -->
       {{ product.product_Name }}
     </a>
-
+    <hr>
     <h4>
       <p *ngIf="product.product_id"> Description: {{ product.description }}</p>
     </h4>

@@ -14,4 +14,8 @@ export class ProductListComponent {
   onNotify(){
     alert('You will be notified when the product goes on sale');
   }
+  myFunction()
+  {
+    document.getElementById("myDiv").style.border = "thick solid #0000FF";
+  }
 }
