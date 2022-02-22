@@ -11,6 +11,7 @@ export class ProductAlertComponent{
 @Input () productFile : Product | undefined;
 @Output() notify = new EventEmitter();
 
+
 buy() {
   window.alert('The product has been added to cart.!');
 }
